@@ -119,13 +119,16 @@ class ViewController: UITableViewController {
     }
     
     func filterPetition(textToFind: String) {
-        filterPetitions = petitions.filter({ $0.title.lowercased().contains(textToFind.lowercased()) })
-        
-        if filterPetitions.count >= 1 {
-            isFilterResult = true
-            tableView.reloadData()
+        DispatchQueue.global(qos: .userInitiated).async { [weak self] in
+            self?.filterPetitions = (self?.petitions.filter({ $0.title.lowercased().contains(textToFind.lowercased()) }))!
+            
+            if (self?.filterPetitions.count)! >= 1 {
+                DispatchQueue.main.async {
+                    self?.isFilterResult = true
+                    self?.tableView.reloadData()
+                }
+            }
         }
-        
     }
     
     func parse(json: Data) {

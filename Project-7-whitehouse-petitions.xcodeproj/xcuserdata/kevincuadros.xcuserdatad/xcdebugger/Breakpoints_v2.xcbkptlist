@@ -18,36 +18,6 @@
             endingLineNumber = "72"
             landmarkName = "showError()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "76C86818-ABF4-4221-8459-2D466B13E565 - 27c81b731db59e38"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Project_7_whitehouse_petitions.ViewController.showError() -&gt; ()"
-                  moduleName = "Project-7-whitehouse-petitions"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kevincuadros/Documents/Swift/Project-7-whitehouse-petitions/Project-7-whitehouse-petitions/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "72"
-                  endingLineNumber = "72">
-               </Location>
-               <Location
-                  uuid = "76C86818-ABF4-4221-8459-2D466B13E565 - 27c81b731db59e59"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Project_7_whitehouse_petitions.ViewController.showError() -&gt; ()"
-                  moduleName = "Project-7-whitehouse-petitions"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kevincuadros/Documents/Swift/Project-7-whitehouse-petitions/Project-7-whitehouse-petitions/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
